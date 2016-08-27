@@ -41,7 +41,3 @@ install:
 
 script:
   - cookiecutter --replay --config-file tests/cookiecutterrc .
-  - cd test_project
-  # TODO: Do something
-  - bundle install
-  - bundle exec rake spec SPEC_TARGET=${TARGET}
